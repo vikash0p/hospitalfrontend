@@ -4,7 +4,6 @@
 
 
 @layer base {
-
   :root {
     --background: 0 0% 200%;
     --foreground: 222.2 84% 4.9%;
@@ -62,7 +61,7 @@
       -webkit-tap-highlight-color: transparent;
     }
     h1, h2, h3, h4, h5, h6 {
-    @apply font-bold;
+    @apply font-bold ;
 
   }
   }
