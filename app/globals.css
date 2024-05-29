@@ -4,6 +4,7 @@
 
 
 @layer base {
+
   :root {
     --background: 0 0% 200%;
     --foreground: 222.2 84% 4.9%;
@@ -59,7 +60,15 @@
       @apply bg-background text-foreground;
       scroll-behavior: smooth;
       -webkit-tap-highlight-color: transparent;
-      
-
     }
+    h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+
   }
+  }
+
+@layer components {
+  .btn-blue {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+  }
+}
