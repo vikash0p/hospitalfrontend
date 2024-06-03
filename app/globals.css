@@ -54,6 +54,7 @@
   @layer base {
     * {
       @apply border-border;
+      @apply subpixel-antialiased;
     }
     body {
       @apply bg-background text-foreground;
