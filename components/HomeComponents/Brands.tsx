@@ -5,7 +5,7 @@ import React from 'react'
 
 const Brands = () => {
   return (
-    <div className='w-full bg-gray-200 dark:bg-gray-900 flex  h-24 justify-center items-center gap-5 flex-wrap'>
+    <div className='w-full bg-gray-200 dark:bg-gray-900 flex  lg:h-24 justify-center items-center gap-5 flex-wrap'>
         {
             myImage.map((value)=>{
                 return(
