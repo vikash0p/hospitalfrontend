@@ -11,24 +11,25 @@ const HomeHero = () => {
           Great doctor if you need your family member to get immediate
           assistance, emergency treatment or a simple consultation.
         </p>
-        <div className="w-full h-14 bg-transparent flex flex-row rounded-xl">
+        <div className="w-full h-14 bg-transparent flex flex-row rounded-xl ">
           <input
             type="text"
             name="search"
             id="search"
-            className="w-full h-full pl-4 dark:bg-white text-black bg-gray-200 outline-none"
+            className="w-full h-full pl-4 dark:bg-white text-black bg-gray-200 outline-none focus:border focus:border-primary"
             placeholder="Search..."
             aria-label="Search for doctors"
           />
           <button
             type="button"
             disabled
-            className="h-full px-10 rounded-r-xl bg-primary text-white"
+            className="h-full px-10 rounded-r-xl bg-primary text-white cursor-pointer hover:bg-primary/95"
             aria-label="Search"
           >
             Search
           </button>
         </div>
+        <label htmlFor="search" className="text-gray-500 dark:text-gray-100" > <span className="font-bold ">Note</span>: Please search best doctors here,</label>
       </div>
       <div className="w-full h-full">
         <Image
