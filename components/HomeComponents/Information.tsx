@@ -19,7 +19,7 @@ import Link from "next/link";
 const Information = () => {
   return (
     <div className="w-full min-h-screen flex flex-col gap-10 justify-center items-center`">
-      <div>
+      <div className="space-y-5">
         <Heading heading={"Explore By Categories"} className={"heading1"} />
         <SubHeading
           sub={
