@@ -1,7 +1,6 @@
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   :root {
@@ -50,25 +49,33 @@
   }
 }
 
-
-  @layer base {
-    * {
-      @apply border-border;
-      @apply subpixel-antialiased;
-    }
-    body {
-      @apply bg-background text-foreground;
-      scroll-behavior: smooth;
-      -webkit-tap-highlight-color: transparent;
-    }
-    h1, h2, h3, h4, h5, h6,p {
-    @apply text-pretty ;
+@layer base {
+  * {
+    @apply border-border;
+    @apply subpixel-antialiased;
   }
+  body {
+    @apply bg-background text-foreground;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
   }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    @apply text-pretty;
+  }
+}
 
 @layer components {
   .btn-blue {
     @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+  }
+  .heading1 {
+    @apply text-3xl font-semibold text-center;
   }
 }
 /* loading css */
@@ -77,25 +84,28 @@
   width: 40px;
   height: 40px;
   position: relative;
-  --c:no-repeat linear-gradient(#2918e4 0 0);
-  background:
-    var(--c) center/100% 10px,
-    var(--c) center/10px 100%;
+  --c: no-repeat linear-gradient(#2918e4 0 0);
+  background: var(--c) center/100% 10px, var(--c) center/10px 100%;
 }
 .loader:before {
-  content:'';
+  content: "";
   position: absolute;
   inset: 0;
-  background:
-    var(--c) 0    0,
-    var(--c) 100% 0,
-    var(--c) 0    100%,
-    var(--c) 100% 100%;
+  background: var(--c) 0 0, var(--c) 100% 0, var(--c) 0 100%, var(--c) 100% 100%;
   background-size: 15.5px 15.5px;
-  animation: l16 1.5s infinite cubic-bezier(0.3,1,0,1);
+  animation: l16 1.5s infinite cubic-bezier(0.3, 1, 0, 1);
 }
 @keyframes l16 {
-   33%  {inset:-10px;transform: rotate(0deg)}
-   66%  {inset:-10px;transform: rotate(90deg)}
-   100% {inset:0    ;transform: rotate(90deg)}
+  33% {
+    inset: -10px;
+    transform: rotate(0deg);
+  }
+  66% {
+    inset: -10px;
+    transform: rotate(90deg);
+  }
+  100% {
+    inset: 0;
+    transform: rotate(90deg);
+  }
 }

@@ -1,6 +1,7 @@
 import Brands from '@/components/HomeComponents/Brands'
 import HomeHero from '@/components/HomeComponents/HomeHero'
 import Information from '@/components/HomeComponents/Information'
+import Footer from '@/components/ReusableComp/Footer'
 import React from 'react'
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
        <HomeHero />
        <Brands />
        <Information />
+       <Footer />
     </div>
   )
 }
