@@ -18,20 +18,21 @@ import Link from "next/link";
 
 const Information = () => {
   return (
-    <div className="w-full min-h-screen flex flex-col gap-10 justify-center items-center`">
+    <div className="w-full min-h-screen flex flex-col gap-10 justify-center items-center my-10">
       <div className="space-y-5">
         <Heading heading={"Explore By Categories"} className={"heading1"} />
         <SubHeading
           sub={
             "Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation."
           }
+          className="subHeading"
         />
       </div>
       <div className="flex  gap-5 justify-center flex-wrap">
         {cat.map((value) => {
           return (
-            <Card className="w-[250px] space-y-2 pt-4" key={value.head}>
-              <p className="text-4xl text-primary p-3 rounded-full bg-primary/10 inline-block ms-5 ">
+            <Card className="w-[250px] space-y-2 pt-4 " key={value.head}>
+              <p className="text-4xl text-primary p-5 rounded-full bg-primary/10 inline-block ms-5 ">
                 {value.icon}{" "}
               </p>
               <CardHeader className="space-y-3">
@@ -40,7 +41,12 @@ const Information = () => {
               </CardHeader>
               <CardContent></CardContent>
               <CardFooter>
-                <Link href={value.link} className="flex flex-row gap-2 font-bold text-primary" >Find here  <MoveRight /> </Link>
+                <Link
+                  href={value.link}
+                  className="flex flex-row gap-2 font-bold text-primary"
+                >
+                  Find here <MoveRight />{" "}
+                </Link>
               </CardFooter>
             </Card>
           );

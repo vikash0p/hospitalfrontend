@@ -19,10 +19,10 @@ const Footer = () => {
             <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-teal-700 transition t-teal-700/75"
+                  className="text-primary transition  "
                 >
                   <span className="sr-only">Facebook</span>
                   <svg
@@ -42,10 +42,10 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-teal-700 transition t-teal-700/75"
+                  className="text-primary transition t-primary/75"
                 >
                   <span className="sr-only">Instagram</span>
                   <svg
@@ -65,10 +65,10 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-teal-700 transition t-teal-700/75"
+                  className="text-primary transition t-primary/75"
                 >
                   <span className="sr-only">Twitter</span>
                   <svg
@@ -84,10 +84,10 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-teal-700 transition t-teal-700/75"
+                  className="text-primary transition t-primary/75"
                 >
                   <span className="sr-only">GitHub</span>
                   <svg
@@ -107,10 +107,10 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-teal-700 transition t-teal-700/75"
+                  className="text-primary transition t-primary/75"
                 >
                   <span className="sr-only">Dribbble</span>
                   <svg
@@ -136,25 +136,25 @@ const Footer = () => {
 
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
-                  <a className=" transition " href="#">
+                  <a className=" transition " href="/">
                     Company History
                   </a>
                 </li>
 
                 <li>
-                  <a className=" transition " href="#">
+                  <a className=" transition " href="/">
                     Meet the Team
                   </a>
                 </li>
 
                 <li>
-                  <a className=" transition " href="#">
+                  <a className=" transition " href="/">
                     Employee Handbook
                   </a>
                 </li>
 
                 <li>
-                  <a className=" transition " href="#">
+                  <a className=" transition " href="/">
                     {" "}
                     Careers{" "}
                   </a>
@@ -167,25 +167,25 @@ const Footer = () => {
 
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
-                  <a className=" transition " href="#">
+                  <a className=" transition " href="/">
                     Neurology
                   </a>
                 </li>
 
                 <li>
-                  <a className=" transition " href="#">
+                  <a className=" transition " href="/">
                     Gynecology
                   </a>
                 </li>
 
                 <li>
-                  <a className=" transition " href="#">
+                  <a className=" transition " href="/">
                     Cardiology
                   </a>
                 </li>
 
                 <li>
-                  <a className=" transition " href="#">
+                  <a className=" transition " href="/">
                     Dental Care
                   </a>
                 </li>
@@ -197,14 +197,14 @@ const Footer = () => {
 
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
-                  <a className=" transition " href="#">
+                  <a className=" transition " href="/">
                     {" "}
                     FAQs{" "}
                   </a>
                 </li>
 
                 <li>
-                  <a className=" transition " href="#">
+                  <a className=" transition " href="/">
                     {" "}
                     Support{" "}
                   </a>
@@ -213,13 +213,13 @@ const Footer = () => {
                 <li>
                   <a
                     className="group flex  gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                    href="#"
+                    href="/"
                   >
                     <span className=" transition group ">Live Chat</span>
 
                     <span className="relative flex h-2 w-2">
-                      <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"></span>
-                      <span className="relative inline-flex size-2 rounded-full bg-teal-500"></span>
+                      <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75"></span>
+                      <span className="relative inline-flex size-2 rounded-full bg-primary"></span>
                     </span>
                   </a>
                 </li>
@@ -233,7 +233,7 @@ const Footer = () => {
                 <li>
                   <a
                     className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                    href="#"
+                    href="/"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -257,7 +257,7 @@ const Footer = () => {
                 <li>
                   <a
                     className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                    href="#"
+                    href="/"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -314,8 +314,8 @@ const Footer = () => {
               <span className="block sm:inline">All rights reserved.</span>
 
               <a
-                className="inline-block text-teal-600 underline transition t-teal-600/75"
-                href="#"
+                className="inline-block text-primary underline transition t-primary/75"
+                href="/"
               >
                 Terms & Conditions
               </a>
@@ -323,8 +323,8 @@ const Footer = () => {
               <span>&middot;</span>
 
               <a
-                className="inline-block text-teal-600 underline transition t-teal-600/75"
-                href="#"
+                className="inline-block text-primary underline transition t-primary/75"
+                href="/"
               >
                 Privacy Policy
               </a>
