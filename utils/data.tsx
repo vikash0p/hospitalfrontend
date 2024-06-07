@@ -87,3 +87,81 @@ export const cat: Category[] = [
     link: "/",
   },
 ];
+
+
+export const prof = [
+  {
+    name: "Mr. Seamus Borer",
+    position: "Clifford Conn",
+    img: "/hospitalHome/01.d8b9651b2a3ba6336221.jpg",
+    add1: "63, PG Shustoke, UK",
+    time: "Mon: 2:00PM - 6:00PM",
+    price: "75",
+    rating: 5,
+  },
+  {
+    name: "Mr. Seamus Borer",
+    position: "Clifford Conn",
+    img: "/hospitalHome/02.38e00cf46dc0cbd9fed3.jpg",
+    add1: "63, PG Shustoke, UK",
+    time: "Mon: 2:00PM - 6:00PM",
+    price: "75",
+    rating: 5,
+  },
+  {
+    name: "Mr. Seamus Borer",
+    position: "Clifford Conn",
+    img: "/hospitalHome/03.b192aca452235f61b392.jpg",
+    add1: "63, PG Shustoke, UK",
+    time: "Mon: 2:00PM - 6:00PM",
+    price: "75",
+    rating: 5,
+  },
+  {
+    name: "Mr. Seamus Borer",
+    position: "Clifford Conn",
+    img: "/hospitalHome/04.f645789423636f851180.jpg",
+    add1: "63, PG Shustoke, UK",
+    time: "Mon: 2:00PM - 6:00PM",
+    price: "75",
+    rating: 5,
+  },
+  {
+    name: "Mr. Seamus Borer",
+    position: "Clifford Conn",
+    img: "/hospitalHome/05.e4b5d05f3ab9e6bad04a.jpg",
+    add1: "63, PG Shustoke, UK",
+    time: "Mon: 2:00PM - 6:00PM",
+    price: "75",
+    rating: 5,
+  },
+  {
+    name: "Mr. Seamus Borer",
+    position: "Clifford Conn",
+    img: "/hospitalHome/06.5f6ca505ccd7235d60cb.jpg",
+    add1: "63, PG Shustoke, UK",
+    time: "Mon: 2:00PM - 6:00PM",
+    price: "75",
+    rating: 5,
+  },
+  {
+    name: "Mr. Seamus Borer",
+    position: "Clifford Conn",
+    img: "/hospitalHome/07.ab134f26065c7dbc1327.jpg",
+    add1: "63, PG Shustoke, UK",
+    time: "Mon: 2:00PM - 6:00PM",
+    price: "75",
+    rating: 5,
+  },
+  {
+    name: "Mr. Seamus Borer",
+    position: "Clifford Conn",
+    img: "/hospitalHome/08.b123ead5517617943499.jpg",
+    add1: "63, PG Shustoke, UK",
+    time: "Mon: 2:00PM - 6:00PM",
+    price: "75",
+    rating: 5,
+  },
+
+
+];
