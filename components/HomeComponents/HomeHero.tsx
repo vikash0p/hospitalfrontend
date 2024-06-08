@@ -1,10 +1,11 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const HomeHero = () => {
+ 
   return (
-    <div className="max-w-7xl mx-auto min-h-screen grid grid-cols-1 lg:grid-cols-2 place-items-center">
+    <div className="max-w-7xl mx-auto min-h-screen grid grid-cols-1 lg:grid-cols-2 place-items-center mt-16">
       <div className="space-y-4">
         <h1 className="text-4xl font-bold">Find Best Doctor</h1>
         <p>
