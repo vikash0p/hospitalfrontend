@@ -91,8 +91,8 @@ export const cat: Category[] = [
 
 export const prof = [
   {
-    name: "Mr. Seamus Borer",
-    position: "Clifford Conn",
+    name: "Alex Thomas",
+    position: "M.B.B.S, Urologist",
     img: "/hospitalHome/01.d8b9651b2a3ba6336221.jpg",
     add1: "63, PG Shustoke, UK",
     time: "Mon: 2:00PM - 6:00PM",
@@ -100,8 +100,8 @@ export const prof = [
     rating: 5,
   },
   {
-    name: "Mr. Seamus Borer",
-    position: "Clifford Conn",
+    name: "Philip Reynolds",
+    position: "M.B.B.S, Neurologist",
     img: "/hospitalHome/02.38e00cf46dc0cbd9fed3.jpg",
     add1: "63, PG Shustoke, UK",
     time: "Mon: 2:00PM - 6:00PM",
@@ -109,8 +109,8 @@ export const prof = [
     rating: 5,
   },
   {
-    name: "Mr. Seamus Borer",
-    position: "Clifford Conn",
+    name: "Luke Brown",
+    position: "Eye Care",
     img: "/hospitalHome/03.b192aca452235f61b392.jpg",
     add1: "63, PG Shustoke, UK",
     time: "Mon: 2:00PM - 6:00PM",
@@ -118,8 +118,8 @@ export const prof = [
     rating: 5,
   },
   {
-    name: "Mr. Seamus Borer",
-    position: "Clifford Conn",
+    name: "Franklin Logan",
+    position: "M.B.B.S, Gynecologist",
     img: "/hospitalHome/04.f645789423636f851180.jpg",
     add1: "63, PG Shustoke, UK",
     time: "Mon: 2:00PM - 6:00PM",
@@ -127,8 +127,8 @@ export const prof = [
     rating: 5,
   },
   {
-    name: "Mr. Seamus Borer",
-    position: "Clifford Conn",
+    name: "Celia Ryan",
+    position: "M.B.B.S, Psychotherapist",
     img: "/hospitalHome/05.e4b5d05f3ab9e6bad04a.jpg",
     add1: "63, PG Shustoke, UK",
     time: "Mon: 2:00PM - 6:00PM",
@@ -136,8 +136,8 @@ export const prof = [
     rating: 5,
   },
   {
-    name: "Mr. Seamus Borer",
-    position: "Clifford Conn",
+    name: "Annie Martin",
+    position: "M.B.B.S, Psychotherapist",
     img: "/hospitalHome/06.5f6ca505ccd7235d60cb.jpg",
     add1: "63, PG Shustoke, UK",
     time: "Mon: 2:00PM - 6:00PM",
@@ -145,8 +145,8 @@ export const prof = [
     rating: 5,
   },
   {
-    name: "Mr. Seamus Borer",
-    position: "Clifford Conn",
+    name: "Nelle Arnold",
+    position: "M.B.B.S, Orthopedic",
     img: "/hospitalHome/07.ab134f26065c7dbc1327.jpg",
     add1: "63, PG Shustoke, UK",
     time: "Mon: 2:00PM - 6:00PM",
@@ -154,14 +154,12 @@ export const prof = [
     rating: 5,
   },
   {
-    name: "Mr. Seamus Borer",
-    position: "Clifford Conn",
+    name: "Gussie Simpson",
+    position: "M.B.B.S, Dentist",
     img: "/hospitalHome/08.b123ead5517617943499.jpg",
     add1: "63, PG Shustoke, UK",
     time: "Mon: 2:00PM - 6:00PM",
     price: "75",
     rating: 5,
   },
-
-
 ];

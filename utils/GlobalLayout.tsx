@@ -14,7 +14,8 @@ const GlobalLayout = ({children}:{children:React.ReactNode}) => {
         disableTransitionOnChange
       >
         <Navbar />
-        <main>{children} </main>
+       {children}
+
       </ThemeProvider>
     </div>
   );
